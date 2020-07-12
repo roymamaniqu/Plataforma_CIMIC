@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aquí va la descripción de la página que saldrá en GOOGLE"> 
+
+  <!-- Imagen del favicon + Título-->
+  <link rel="shortcut icon" href="img/favicon.svg">
+  <title>CIMIC</title>
+
+  <!-- Link de Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/MisEstilos.css">
+
+  <!-- Link de Fontawesome -->
+  <link rel="stylesheet" href="Fontawesome/css/all.css">
+
+  
+</head>
+<body>
+    <!-- BARRA DE NAVEGACIÓN-->
+    <nav class="navbar navbar-expand-lg  navbar-dark  bg-nav fixed-top"> <!-- navbar-(para la letra)  bg-(Color de Fondo Background)-->
+        <a class="navbar-brand px-4" href="#">CIMIC</a>
+    
+        <!-- Esto hace que sea responsive (Menu Hambruguesa como dice Roy)-->    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Estas son las opciones en el Menú--> 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item"> <!-- Poner clase (activado o disable) para activar o desactivar--> 
+              <a class="nav-link" href="#"> <i class="fas fa-address-card"></i>   ¿Quienes somos? <span class="sr-only">(current)</span></a>
+            </li>
+
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user-friends"></i> Miembros</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#"><i class="fas fa-user-tie"></i> Gerencia General</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-user-tie"></i> Asesores</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-user-tie"></i> Gerencias</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-users"></i> Miembros</a>
+                </div>
+              </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#"> <i class="fas fa-globe-americas"></i> Publicaciones</a>
+            </li>
+
+            
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-calendar-day"></i> Eventos</a>
+              </li>
+            
+          </ul>
+
+          <!-- Parte del buscador--> <!-- 
+          <form class="form-inline my-2 my-lg-0 mr-5" >
+            <input class="form-control mr-sm-2" type="search" placeholder="¿Que buscaremos?" aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form> --> 
+
+           <!-- BOTONES DE INGRESAR O REGISTRARSE--> 
+          <div>
+            <button type="button pd" class="btn btn-light" >Ingresar <i class="fas fa-door-open"></i></button>
+            <button type="button" class="btn btn-info ml-2">Registrarse <i class="fas fa-sign-in-alt"></i></button>
+          </div>
+        
+        </div>
+      </nav>
+
+    <section container class="mt-5 pt-1">
+
+      <hr><hr>
+
+      <div container>
+        <h2 class="text-center">NOSE QUE PONER PORQUE NO HAY DATOS JAJA XD</h2>
+      </div>
+
+      <hr><hr>
+
+
+    </section>
+
+      <!--Esto es el footer-->
+ <footer  class="bg-footer py-2 container-fluid" > <!--Esto me hizo sufris, ocurria un error XD :v-->
+    
+    <div class="row">
+
+      <div class="col-12  col-sm-12 col-md-6 col-lg-3">
+        <div class="text-center mb-4"><img src="img/logo2.png" alt=""></div>
+      </div>
+
+      <div class="col-12  col-sm-12 col-md-6 col-lg-3">
+      <div class="text-center">
+        <h3 class=" h5">Déjanos tu Comentario</h3>
+        <!--Envíanos tu Comentario-->
+        <form action="text" class="mx-3">
+            <input class="form-control mr-sm-2 my-2" type="text" placeholder="Nombres" aria-label="Search">
+            <input class="form-control mr-sm-2 my-2" type="email" placeholder="Correo Electrónico" aria-label="Search">
+            <input class="form-control mr-sm-2 my-2" type="tel" placeholder="Telefono / Celular" aria-label="Search">
+            <textarea class="form-control mr-sm-2 my-2" type="text" placeholder="Escribe tu Comentario" aria-label="Search" cols="20" rows="6"></textarea>
+            <p class="text-left "> <button  type="button" class="btn btn-light font-weight-bold " id=""> ENVIAR </button>  
+        </form> </p>
+      </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+      <div class="pl-3">
+        <h3 class="text-center h5">Enlaces rápidos</h3>
+        <p> <a href="https://web.facebook.com/CIMIC.EPIC"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+        <p><i class="fab fa-youtube-square"></i> You Tube</p>
+        <p><i class="fab fa-whatsapp-square"></i> Grupo de Whatsapp</p>
+      </div>
+      </div>
+
+    
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+      <div class="pl-3">
+        <h3 class="text-center h5" >Información de contacto</h3>
+        <p> <i class="fas fa-phone-square-alt"></i> +51 974514178</p>
+        <p> <i class="fas fa-envelope"></i> cimic.epic@gmail.com</p>
+      </div>
+      </div>
+
+    </div>
+
+    <div >
+        <p class="text-center">Todos los Derechos Reservados <i class="fas fa-copyright"></i> CIMIC</p>
+    </div>
+
+
+ </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>  
+</body>
+</html>
