@@ -48,6 +48,7 @@ footer{
 
 /* ESTILOS CSS DE ROY */
 /* fondo transparente del carrusel de videos institucionales */
+/*INDEX*/
 .main-header {
     position: relative;
     background: url(../img/background.jpg);
@@ -66,6 +67,24 @@ footer{
 
 /* Hacer el iframe responsive */
 .carousel-inner iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*EVENTOS*/
+.main-header-eventos {
+    position: relative;
+    background: url(https://images.pexels.com/photos/3862379/pexels-photo-3862379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    min-height: 520px;
+}
+
+.background-overlay-eventos {
+    position: absolute;
+    background: rgba(255, 255, 255, .8);
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
 }
