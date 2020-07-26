@@ -89,3 +89,19 @@ footer{
     height: 100%;
 }
 
+.bg-curso-info{
+    
+    background: url(https://scontent.faqp2-2.fna.fbcdn.net/v/t1.0-9/11535787_579198855556346_3615881556952757625_n.jpg?_nc_cat=104&_nc_sid=825194&_nc_eui2=AeHcJam8eKfACIxMameROtEq2zUesFO9fC_bNR6wU718LyNEmvqnwWX_WY8jeK348182wf7XG9m9x2PTSIMf4nys&_nc_ohc=XH4DCBDGa3cAX9AWfVu&_nc_ht=scontent.faqp2-2.fna&oh=0253b09c74519bd687c4a96d559f6bc0&oe=5F425F25);
+    background-size: cover;
+    min-height: 600px;
+    
+}
+
+.bg-overlay-curso {
+    
+    background-color: rgb(100, 13, 13, .8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
